@@ -1,0 +1,5 @@
+Django>=4.2,<5
+mysqlclient>=2.2,<3      # For MySQL database
+requests>=2.31,<3        # For fetching API data
+python-decouple>=3.8,<4  # For reading .env securely
+gunicorn>=21.2,<22       # Production WSGI server
