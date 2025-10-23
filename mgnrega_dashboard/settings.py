@@ -74,7 +74,7 @@ WSGI_APPLICATION = 'mgnrega_dashboard.wsgi.application'
 from decouple import config
 
 SECRET_KEY = config('SECRET_KEY')
-DEBUG = config('DEBUG', default=False, cast=bool)
+DEBUG = True
 
 DATABASES = {
     'default': {
